@@ -29,28 +29,21 @@ function ternaryTeenager(age) {
 function switchAge(age) {
   switch(age) {
     case 13:
-      console.log("You are teenager");
-      break;
+      return "You are teenager";
     case 14:
-      console.log("You are teenager");
-      break;
+      return "You are teenager";
     case 15:
-      console.log("You are teenager");
-      break;
+      return "You are teenager";
     case 16:
-      console.log("You are teenager");
-      break;
+      return "You are teenager";
     case 17:
-      console.log("You are teenager");
-      break;
+      return "You are teenager";
     case 18:
-      console.log("You are teenager");
-      break;
+      return "You are teenager";
     case 19:
-      console.log("You are teenager");
-      break;
+      return "You are teenager";
     default:
-      console.log "You have an age");
+      return "You have an age";
       break;
   }
 }
